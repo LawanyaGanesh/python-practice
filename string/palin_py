@@ -1,0 +1,14 @@
+pal = "MADAM"
+reverse = ""
+for row in pal:
+
+    reverse = row + reverse
+
+if pal == reverse:
+
+    print("Palindrome")
+
+else:
+
+    print("Not Palindrome")
+
