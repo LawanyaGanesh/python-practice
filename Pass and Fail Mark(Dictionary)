@@ -1,0 +1,17 @@
+students = {
+    "Arun": 85,
+    "Rahul": 72,
+    "Priya": 95,
+    "Kiran": 60,
+    "Sneha": 88
+}
+
+passs = 0
+fail = 0
+for key,value in students.items():
+  if value>80:
+    passs +=1
+  else:
+    fail +=1
+print("Pass",passs)
+print("Fail",fail)
